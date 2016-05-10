@@ -1,0 +1,146 @@
+/*
+Theme Name: HM-Tema
+Theme URI: http://siteparabaixarotema.com.br
+Description: um tema desenvolvido por MVDrive
+Author: MVDrive
+Author URI: http://sitedoautordotema.com.br
+Version: 1.0
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    margin-left: -500px;
+    left: 50%;
+    margin-top: 30;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: #333333;
+    border-bottom: 1px solid #000000;
+}
+
+.centered_header {
+    position: relative;
+    width: 1000px;
+    height: 95px;
+    margin-left: -500px;
+    left: 50%;
+    padding-top: 25px;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background-image: url("img/menu_background.png");
+    /* box-shadow: 2px 2px 2px #CCCCCC; */
+    border-bottom: 1px solid #999999;
+}
+
+.centered_menu {
+    position: relative;
+    width: 1000px;
+    height: 45px;
+    margin-left: -500px;
+    left: 50%;
+    line-height: 45px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+li a {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.content {
+    position: relative;
+    width: 700px;
+    height: 200px;
+    background-color: #EFEFEF;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+thumbnail {
+    position: relative;
+    width: 198px;
+    height: 198px;
+    float: left;
+    border: 1px solid #CCCCCC;
+    margin-right: 10px;
+}
+
+#title {
+    font-family: Tahoma, Helvetica, sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+#title:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.facebook {
+    position: relative;
+    width: 90px;
+    height: 120px;
+    float: right;
+    background-image: url("img/facebook.png");
+    cursor: pointer;
+}
+
+.facebook:hover {
+    background-image: ("img/facebook_hover.png");
+}
+
+.twitter {
+    position: relative;
+    width: 90px;
+    height: 120px;
+    float: right;
+    background-image: url("img/twitter.png");
+    cursor: pointer;
+}
+
+.twitter:hover {
+    background-image: ("img/twitter_hover.png");
+}
+
+.feed {
+    position: relative;
+    width: 90px;
+    height: 120px;
+    float: right;
+    background-image: url("img/feed.png");
+    cursor: pointer;
+}
+
+.feed:hover {
+    background-image: ("img/feed_hover.png");
+}

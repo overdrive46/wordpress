@@ -1,0 +1,6 @@
+Criar uma pasta com o nome do tema, ex.: HM-Tema
+Dentro da pasta principal criar uma pasta com o nome img
+Dentro da pasta principal criar criar dois arquivos: index.php e style.css
+Criar um thumbnail (imagem de logo do tema): largura 300px x altura 225px. Extensão PNG
+Criar uma imagem para dividir o cabeçalho da página do corpo da página: largura 1px x altura 45px. Gradiente linear cinza e branco, colocar o branco na parte de cima.
+Criar uma imagem para o logo da página: largura 350px x altura 125px.
